@@ -1,0 +1,11 @@
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Property [a-zA-Z0-9\\_]+::\$[a-zA-Z0-9\\_]+ has no typehint specified.#'
+    reportUnmatchedIgnoredErrors: false
+    excludePaths:
+        analyse:
+            - vendor
